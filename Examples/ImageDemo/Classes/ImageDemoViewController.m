@@ -268,6 +268,7 @@ enum
                 filledCell = [[[ImageDemoFilledCell alloc] initWithFrame: CGRectMake(0.0, 0.0, 200.0, 150.0)
                                                          reuseIdentifier: FilledCellIdentifier] autorelease];
                 filledCell.selectionStyle = AQGridViewCellSelectionStyleBlueGray;
+                
             }
             
             filledCell.image = [UIImage imageNamed: [_imageNames objectAtIndex: index]];
